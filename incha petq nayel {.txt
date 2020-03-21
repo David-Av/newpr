@@ -1,0 +1,14 @@
+incha petq nayel 1in das {
+   1: import export,
+   2: gulpi configner@,
+   3:forEach
+}
+
+addEventListener('click', (e) => {
+         if(e.target) {
+            e.preventDefault();
+         }
+         modal.style.display = "block";
+         document.body.style.overflow = 'hidden';
+         // document.body.classList.add('modal-open')
+      });
